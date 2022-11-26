@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  width: 670px;
+  height: 475px;
+  border: 1px solid #333;
+  margin-top: 50px;
+  margin-left: 350px;
+  background-image: url(./images/board4.png);
+}
+
+.node {
+  position: absolute;
+  border: 1px solid black;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+
+#zero {
+  left: 524px;
+  top: 123px;
+}
+
+#one {
+  left: 671px;
+  top: 123px;
+}
+
+#two {
+  left: 818px;
+  top: 123px;
+}
+
+#three {
+  left: 570px;
+  top: 170px;
+}
+
+#four {
+  left: 670px;
+  top: 170px;
+}
+
+#five {
+  left: 774px;
+  top: 170px;
+}
+
+#six {
+  left: 612px;
+  top: 213px;
+}
+
+#seven {
+  left: 670px;
+  top: 213px;
+}
+
+#eight {
+  left: 730px;
+  top: 213px;
+}
+
+#nine {
+  left: 524px;
+  top: 272px;
+}
+
+#ten {
+  left: 570px;
+  top: 272px;
+}
+
+#eleven {
+  left: 612px;
+  top: 272px;
+}
+
+#twelve {
+  left: 730px;
+  top: 272px;
+}
+
+#thirteen {
+  left: 774px;
+  top: 272px;
+}
+
+#fourteen {
+  left: 819px;
+  top: 272px;
+}
+
+#fifteen {
+  left: 612px;
+  top: 331px;
+}
+
+#sixteen {
+  left: 670px;
+  top: 331px;
+}
+
+#seventeen {
+  left: 730px;
+  top: 331px;
+}
+
+#eighteen {
+  left: 570px;
+  top: 375px;
+}
+
+#nineteen {
+  left: 670px;
+  top: 375px;
+}
+
+#twenty {
+  left: 774px;
+  top: 375px;
+}
+
+#twenty-one {
+  left: 524px;
+  top: 422px;
+}
+
+#twenty-two {
+  left: 670px;
+  top: 422px;
+}
+
+#twenty-three {
+  left: 819px;
+  top: 422px;
+}
+
+.highlight-nodes {
+  box-shadow: 0px 0px 2px 4px yellow;
+}
+
+.is-disabled {
+  pointer-events: none;
+}
+
+.highlight-turn {
+  border: 1px solid;
+}
+
+.player1 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: #ff8080;
+  width: 200px;
+  height: 50px;
+  opacity: 0.7;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.player2 {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  background-color: #80aaff;
+  width: 200px;
+  height: 50px;
+  opacity: 0.7;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.pRed {
+  background-color: #ff8080;
+  background-image: url(./images/brazil.png);
+}
+
+.pBlue {
+  background-color: #80aaff;
+  background-image: url(./images/france.png);
+}
+
+.highlight-nodes {
+  box-shadow: 0px 0px 2px 4px yellow;
+}
+
+.is-disabled {
+  pointer-events: none;
+}
+
+.highlight-turn {
+  border: 1px solid;
+}
